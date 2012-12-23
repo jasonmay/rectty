@@ -1,4 +1,6 @@
 /*
+ * LICENSE OF THE ORIGINAL TTYREC
+ *
  * Copyright (c) 1980 Regents of the University of California.
  * All rights reserved.
  *
@@ -37,6 +39,10 @@
 
 /* 2000-12-27 Satoru Takabayashi <satoru@namazu.org>
  * - modify `script' to create `ttyrec'.
+ */
+
+/* 2012-12-23 Jason May <jason.a.may@gmail.com>
+ * - use ttyrec.c as a foundation for the rectty code
  */
 
 /*
