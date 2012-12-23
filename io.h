@@ -1,7 +1,7 @@
 #ifndef __TTYREC_IO_H__
 #define __TTYREC_IO_H__
 
-#include "ttyrec.h"
+#include "rectty.h"
 
 int     read_header     (FILE *fp, Header *h);
 int     write_header    (FILE *fp, Header *h);

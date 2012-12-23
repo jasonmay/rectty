@@ -67,7 +67,7 @@
 #endif /* SVR4 */
 
 #include <sys/time.h>
-#include "ttyrec.h"
+#include "rectty.h"
 #include "io.h"
 
 #define HAVE_inet_aton
