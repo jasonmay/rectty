@@ -4,10 +4,10 @@ CFLAGS= -g -O
 INCLUDE_DIRS = -Ilibvterm/include
 EXECUTABLE=rectty
 
-rectty: rectty.c libvterm/.libs/libvterm.a
+rectty: rectty.c libvterm/libvterm.la
 	$(LIBTOOL) --mode=link $(CC) $(CFLAGS) $(INCLUDE_DIRS) -o $(EXECUTABLE) rectty.c libvterm/libvterm.la
 
-libvterm/.libs/libvterm.a:
+libvterm/libvterm.la:
 	cd libvterm && make
 
 clean:
