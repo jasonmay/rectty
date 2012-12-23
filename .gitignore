@@ -2,3 +2,12 @@
 *.o
 *.lo
 *.la
+
+/rectty
+
+/libvterm/bin/unterm
+/libvterm/bin/vterm-ctrl
+/libvterm/bin/vterm-dump
+
+/libvterm/src/encoding/*.inc
+
