@@ -1,5 +1,5 @@
-#ifndef __TTYREC_H__
-#define __TTYREC_H__
+#ifndef __RECTTY_H__
+#define __RECTTY_H__
 
 #include "sys/time.h"
 
