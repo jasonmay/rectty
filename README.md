@@ -4,7 +4,7 @@
 
 # Description
 
-This is based off [ttyrec](http://0xcc.net/ttyrec). It will use [LeoNerd's fork of libvterm](https://launchpad.net/libvterm) to write a tty record with a seekable spec.
+This is based off [ttyrec](http://0xcc.net/ttyrec). It will use [LeoNerd's libvterm](https://launchpad.net/libvterm) to write a tty record with a seekable spec.
 
 # Naming
 
